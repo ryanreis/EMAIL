@@ -22,4 +22,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 } else {
     echo "Acesso inválido.";
 }
+
+header("Location: obrigado.html");
+exit;
+
 ?>
